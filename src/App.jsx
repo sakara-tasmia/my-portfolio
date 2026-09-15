@@ -6,7 +6,7 @@ const profile = {
     name: "Sakaratul Ara Tasmia",
     tagline: "CSE graduate student at IIUC",
     about: "I'm a Computer Science graduate student passionate about machine learning and web development. Currently working on my MSc thesis focused on driver drowsiness detection systems.",
-    photo: "/profile.jpg",
+    photo: `${import.meta.env.BASE_URL}profile.jpg`,
     initials: "ST",
     email: "sakaratasmia@gmail.com",
     github: "https://github.com/sakara-tasmia",
