@@ -27,10 +27,10 @@ const projects = [
         source: "https://github.com/sakara-tasmia/email-phishing-detector"
     },
     {
-        title: "Skin Lesion Analysis",
-        description: "A computer vision project for analyzing skin lesions and detecting potential malignancies.",
-        tags: ["Python", "OpenCV"],
-        source: "https://github.com/sakara-tasmia/skin-lesion-analysis"
+        title: "RealScape",
+        description: "A MERN stack-based real estate platform that allows users to browse and wishlist properties, agents to manage property listings, and admins to oversee platform operations.",
+        tags: ["React.js (Vite)", "Tailwind CSS","Node.js"],
+        source: "https://github.com/sakara-tasmia/RealScape"
     }
 ];
 
