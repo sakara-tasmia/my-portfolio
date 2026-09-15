@@ -4,8 +4,8 @@ import './App.css';
 // ---- EDIT THIS SECTION WITH YOUR OWN INFO ----
 const profile = {
     name: "Sakaratul Ara Tasmia",
-    tagline: "CSE graduate student at IIUC",
-    about: "I'm a Computer Science graduate student passionate about machine learning and web development. Currently working on my MSc thesis focused on driver drowsiness detection systems.",
+    tagline: "A Computer science graduate student at IIUC",
+    about: "I'm a Computer Science graduate student passionate about machine learning and web development. Currently working on my MSc thesis focused on driver drowsiness detection systems. Loves to explore new technologies and solve complex problems.",
     photo: `${import.meta.env.BASE_URL}profile.jpg?v=2`,
     cv: `${import.meta.env.BASE_URL}Sakaratul_Ara_Tasmia_CV.pdf`,
     initials: "ST",
@@ -141,9 +141,11 @@ function App() {
                         {typedTagline}
                         <span className="cursor">|</span>
                     </p>
-                    <a className="cv-btn" href={profile.cv} target="_blank" rel="noreferrer" download>
-                        Download CV
-                    </a>
+                    <div className="cv-wrap">
+                        <a className="cv-btn" href={profile.cv} target="_blank" rel="noreferrer" download>
+                            Download CV
+                        </a>
+                    </div>
                 </section>
 
                 <section id="about" ref={aboutRef} className={`block reveal ${aboutVisible ? 'reveal-visible' : ''}`}>
