@@ -39,6 +39,16 @@ const education = [
         school: "International Islamic University Chittagong (IIUC)",
         years: "Present",
         degree: "BSc in Computer Science and Engineering"
+    },
+    {
+        school: "Kulgaon City Corporation College",
+        years: "2018 to 2020",
+        degree: "HSC,Group: Science"
+    },
+    {
+        school: "Holy Flower Ideal School",
+        years: "2016 to 2018",
+        degree: "SSC, Group: Science"
     }
 ];
 // ---- END EDIT SECTION ----
