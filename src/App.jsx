@@ -7,6 +7,7 @@ const profile = {
     tagline: "CSE graduate student at IIUC",
     about: "I'm a Computer Science graduate student passionate about machine learning and web development. Currently working on my MSc thesis focused on driver drowsiness detection systems.",
     photo: `${import.meta.env.BASE_URL}profile.jpg`,
+    cv: `${import.meta.env.BASE_URL}Sakaratul_Ara_Tasmia_CV.pdf`,
     initials: "ST",
     email: "sakaratasmia@gmail.com",
     github: "https://github.com/sakara-tasmia",
@@ -130,6 +131,9 @@ function App() {
                         {typedTagline}
                         <span className="cursor">|</span>
                     </p>
+                    <a className="cv-btn" href={profile.cv} target="_blank" rel="noreferrer" download>
+                        Download CV
+                    </a>
                 </section>
 
                 <section id="about" ref={aboutRef} className={`block reveal ${aboutVisible ? 'reveal-visible' : ''}`}>

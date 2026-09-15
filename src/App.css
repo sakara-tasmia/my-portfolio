@@ -391,3 +391,21 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+.cv-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.7rem;
+    border-radius: 999px;
+    border: 2px solid var(--violet);
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.25s ease;
+}
+
+    .cv-btn:hover {
+        background: linear-gradient(90deg, var(--violet), var(--pink));
+        border-color: transparent;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(139, 92, 246, 0.35);
+    }
